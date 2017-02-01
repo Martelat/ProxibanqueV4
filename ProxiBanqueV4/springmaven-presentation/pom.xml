@@ -99,6 +99,13 @@
 			<version>1</version>
 		</dependency>
 
+		<!-- Primefaces -->
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>6.0</version>
+		</dependency>
+
 
 	</dependencies>
 	<build>

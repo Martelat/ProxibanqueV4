@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+	<link type="text/css" rel="stylesheet" href="themes/blitzer/skin.css" />
+</h:head>
+<h:body>
+	<!-- Déclaration du template dont la page est cliente -->
+	<ui:composition template="/template/index/layoutIndex.xhtml">
+
+		<!-- Redéfinition de la zone "content" -->
+		<ui:define name="contentIndex">
+
+			<f:view>
+				<h:form>
+					<h4>Mot de passe et/ou identifiant invalide(s) !</h4>
+					<h:link id="lien" outcome="login" value="Réessayer"/>				
+				</h:form>
+			</f:view>
+
+		</ui:define>
+
+	</ui:composition>
+</h:body>
+</html>

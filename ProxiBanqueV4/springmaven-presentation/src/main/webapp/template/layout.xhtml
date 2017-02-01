@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+	<!-- permet de déclarer une ressource qui se trouve dans le dossier css du dossier parent resources -->
+	<h:outputStylesheet name="style.css" library="css" />
+</h:head>
+<h:body>
+
+	<div class="ui-g">
+
+		<div id="page" class="ui-g-12 ui-md-12 ui-g-nopad">
+			
+			<!-- La div avec le id= header, represente le header  -->
+			<div id="header">
+				<ui:insert name="header">
+					<ui:include src="/template/header.xhtml">
+					</ui:include>
+				</ui:insert>
+			</div>
+
+			<!-- La div avec le id= content, represente le contenu spécifique à chaque vue  -->
+			<div id="content">
+				<ui:insert name="content">
+					<ui:include src="/template/content.xhtml" />
+				</ui:insert>
+			</div>
+
+			<!-- La div avec le id= footer, represente le pied de page  -->
+			<div id="footer">
+				<ui:insert name="footer">
+					<ui:include src="/template/footer.xhtml" />
+				</ui:insert>
+			</div>
+
+		</div>
+	</div>
+</h:body>
+</html>

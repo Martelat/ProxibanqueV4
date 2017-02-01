@@ -26,7 +26,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>4.2.0.RELEASE</version>
+			<version>4.3.6.RELEASE</version>
 		</dependency>
 		<!--3 Dpdce : commons loggin -->
 		<dependency>
@@ -98,6 +98,15 @@
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
 		</dependency>
+
+		<!-- IL MANQUE LES DEPENDANCES PRIMEFACES !!! -->
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>6.0</version>
+		</dependency>
+
+		<!-- IL FAUT AUSSI AJOUTER JAAS pour la sécurité -->
 
 
 	</dependencies>

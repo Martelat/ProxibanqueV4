@@ -8,7 +8,7 @@
 	http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
 	
-	<bean id="userBean" class="com.objis.springmaven.presentation.UserBean"> 
-		<property name="employeService" ref="employeService" /> 
-	</bean> 
+<!-- 	<bean id="clientBean" class="com.objis.springmaven.presentation.ClientBean">  -->
+<!-- 		<property name="clientService" ref="clientService" />  -->
+<!-- 	</bean>  -->
 </beans>

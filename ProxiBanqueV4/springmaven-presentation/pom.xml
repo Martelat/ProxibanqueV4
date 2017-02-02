@@ -99,15 +99,22 @@
 			<version>1</version>
 		</dependency>
 
+<<<<<<< HEAD
 		<!-- IL MANQUE LES DEPENDANCES PRIMEFACES !!! -->
+=======
+		<!-- Primefaces -->
+>>>>>>> 503f96b57bcd4306787663c1bc04547ce41d3553
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
 			<version>6.0</version>
 		</dependency>
 
+<<<<<<< HEAD
 		<!-- IL FAUT AUSSI AJOUTER JAAS pour la sécurité -->
 
+=======
+>>>>>>> 503f96b57bcd4306787663c1bc04547ce41d3553
 
 	</dependencies>
 	<build>

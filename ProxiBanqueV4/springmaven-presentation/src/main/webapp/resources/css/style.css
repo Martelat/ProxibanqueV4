@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+
+/** Header **/
+
+#header {
+	width: 100%;
+	height:100px;
+}
+
+
+#logo {
+	vertical-align: middle;
+}
+
+#infoConnection{
+	font-size: 15px; 
+	text-align: center; 
+	font-color: #cc2127;
+	font-family: Arial,sans-serif;
+}
+
+/** Footer **/
+
+#footer{
+	width: 100%;
+	height:100px;
+	margin-bottom:16px;
+}
+
+#mentions1, #mentions2 {
+	font-family: Arial,sans-serif;
+	text-align: center; 
+	font-color: lightgrey;
+}

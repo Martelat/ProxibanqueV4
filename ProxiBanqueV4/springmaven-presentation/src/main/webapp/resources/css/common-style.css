@@ -1,0 +1,32 @@
+#header {
+	height: 80px;
+	width: 100%;
+	margin-bottom: 16px;
+	margin-top: 10px;
+	background-color:#afa8a8;
+}
+
+#footer {
+	height: 80px;
+	width: 100%;
+}
+
+#content {
+	height: 600px;
+	width: 100%;
+}
+
+h1{
+	font-size: 20px;
+	font-family: Arial,sans-serif;
+	color: #731525;
+}
+
+
+h4{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	font-family: Arial,sans-serif;
+	color: #cc2127;
+}
